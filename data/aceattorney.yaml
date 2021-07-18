@@ -1,0 +1,170 @@
+- series: nds
+  characters:
+    - id: phoenix
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+        - text: holdit
+          languages:
+            - en
+            - jp
+        - text: takethat
+          languages:
+            - en
+            - jp
+    - id: winston
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: miles
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+        - text: holdit
+          languages:
+            - en
+            - jp
+        - text: takethat
+          languages:
+            - en
+            - jp
+        - text: eureka
+          languages:
+            - en
+            - jp
+    - id: manfred
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: franziska
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: mia
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+        - text: holdit
+          languages:
+            - en
+            - jp
+        - text: takethat
+          languages:
+            - en
+            - jp
+    - id: godot
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: apollo
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+        - text: holdit
+          languages:
+            - en
+            - jp
+        - text: takethat
+          languages:
+            - en
+            - jp
+        - text: gotcha
+          languages:
+            - en
+            - jp
+    - id: kristoph
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: klavier
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: jacques
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: shi-long
+      lines:
+        - text: notsofast
+          languages:
+            - en
+            - jp
+    - id: calisto
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: quercus
+      lines:
+        - text: objection
+          languages:
+            - en
+            - jp
+    - id: horace
+      lines:
+        - text: objection
+          languages:
+            - jp
+    - id: justine
+      lines:
+        - text: overruled
+          languages:
+            - jp
+    - id: sebastian
+      lines:
+        - text: objection
+          languages:
+            - jp
+    - id: raymond
+      lines:
+        - text: objection
+          languages:
+            - jp
+    - id: gregory
+      lines:
+        - text: objection
+          languages:
+            - jp
+        - text: holdit
+          languages:
+            - jp
+        - text: takethat
+          languages:
+            - jp
+        - text: eureka
+          languages:
+            - jp
+    - id: blaise
+      lines:
+        - text: objection
+          languages:
+            - jp
+    - id: simon
+      lines:
+        - text: objection
+          languages:
+            - jp

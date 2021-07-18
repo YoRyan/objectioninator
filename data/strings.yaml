@@ -1,0 +1,69 @@
+languages:
+  en: English
+  jp: 日本語 (Japanese)
+
+
+en:
+  nds: "2D Era: PWAA, JFA, T&T, AJAA, AAI, GK2"
+
+  objection: Objection!
+  holdit: Hold it!
+  takethat: Take that!
+  eureka: Eureka!
+  gotcha: Gotcha!
+  notsofast: Not so fast!
+  overruled: Overruled!
+
+  phoenix: Phoenix Wright
+  winston: Winston Payne
+  miles: Miles Edgeworth
+  manfred: Manfred von Karma
+  franziska: Franziska von Karma
+  mia: Mia Fey
+  godot: Godot
+  apollo: Apollo Justice
+  kristoph: Kristoph Gavin
+  klavier: Klavier Gavin
+  jacques: Jacques Portman
+  shi-long: Shi-Long Lang
+  calisto: Calisto Yew
+  quercus: Quercus Alba
+  horace: Manosuke Naitou ("Horace Knightley")
+  justine: Hakari Mikagami ("Justine Courtney")
+  sebastian: Yumihiko Ichiyanagi ("Sebastian Debeste")
+  raymond: Tateyuki Shigaraki ("Raymond Shields")
+  gregory: Gregory Edgeworth
+  blaise: Bansai Ichiyanagi ("Blaise Debeste")
+  simon: Sōta Sarushiro ("Simon Keyes")
+
+
+jp:
+  objection: 異議あり! (Igiari!)
+  holdit: 待った! (Matta!)
+  takethat: くらえ! (Kurae!)
+  eureka: これだ！ (Kore da!)
+  gotcha: そこだ！ (Soko da!)
+  notsofast: アマイな！ (Amai na!)
+  overruled: 却下！ (Kyakka!)
+
+  phoenix: 成歩堂龍一 (Ryūichi Naruhodō)
+  winston: 亜内武文 (Takefumi Auchi)
+  miles: 御剣怜侍 (Reiji Mitsurugi)
+  manfred: 狩魔 豪 (Gou Karuma)
+  franziska: 狩魔冥 (Mei Karuma)
+  mia: 綾里千尋 (Chihiro Ayasato)
+  godot: 神乃木荘龍 (Sōryū Kaminogi)
+  apollo: 王泥喜 法介 (Housuke Odoroki)
+  kristoph: 牙琉霧人 (Kirihito Garyū)
+  klavier: 牙琉響也 (Kyōya Garyū)
+  jacques: 優木誠人 (Makoto Yūki)
+  shi-long: 狼士龍 (Shiryū Rō)
+  calisto: 葛 氷見子 (Himiko Kazura)
+  quercus: カーネイジオンレッド (Kāneiji Onreddo)
+  horace: 内藤 馬乃介 (Manosuke Naitou)
+  justine: 水鏡秤 (Hakari Mikagami)
+  sebastian: 一柳 弓彦 (Yumihiko Ichiyanagi)
+  raymond: 信楽 盾之 (Tateyuki Shigaraki)
+  gregory: 御剣信 (Shin Mitsurugi)
+  blaise: 一柳 万才 (Bansai Ichiyanagi)
+  simon: 猿代草太　(Sōta Sarushiro)

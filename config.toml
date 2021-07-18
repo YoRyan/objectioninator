@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Objection! ...inator"
+theme = "starter"
+
+[params]
+  custom_css = ["css/my.css"]

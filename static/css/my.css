@@ -1,0 +1,19 @@
+.char-id-mug {
+    vertical-align: middle;
+}
+.char-lines {
+    clear: left;
+}
+.char-line-text,
+.char-line-langs {
+    padding: 1rem 0;
+}
+.char-line-text {
+    float: left;
+    clear: left;
+    font-weight: bold;
+    min-width: 7rem;
+}
+.char-line-play {
+    margin: 0 1rem;
+}

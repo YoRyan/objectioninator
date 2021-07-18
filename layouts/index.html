@@ -1,0 +1,32 @@
+{{ define "main" }}
+<header>
+    {{ .Content }}
+</header>
+{{- $str := $.Site.Data.strings -}}
+{{- range $series := .Site.Data.aceattorney -}}
+<section>
+    <h2>{{ index $str.en $series.series }}</h2>
+    {{- range $char := $series.characters -}}
+    <section class="char">
+        <h3 id="char-id">
+            {{- $mugshot := printf "/mugshots/%s/%s.png" $series.series $char.id -}}
+            {{- $charname := index $str.en $char.id -}}
+            <img src="{{ $mugshot }}" alt="{{ $charname }} mugshot" class="char-id-mug">
+            {{ $charname }}
+        </h3>
+        <div class="char-lines">
+            {{- range $line := $char.lines -}}
+            <dt class="char-line-text">{{ index $.Site.Data.strings.en $line.text }}</dt>
+            <dd class="char-line-langs">
+                {{- range $lang := $line.languages -}}
+                {{- $sound := printf "/sounds/%s/%s/%s/%s.mp3" $series.series $lang $char.id $line.text -}}
+                <a href="{{ $sound }}" class="char-line-play">{{ index $str.languages $lang }}</a>
+                {{- end -}}
+            </dd>
+            {{- end -}}
+        </div>
+    </section>
+    {{- end -}}
+</section>
+{{- end -}}
+{{ end }}
