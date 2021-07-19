@@ -1,1 +1,0 @@
-*Ace Attorney* voice clips fresh from Japanifornia.

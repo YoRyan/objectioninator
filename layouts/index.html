@@ -1,11 +1,14 @@
 {{ define "main" }}
-<section>
-    {{ .Content }}
+<section id="header">
+    <h1>Objection! ...inator</h1>
+    <p>
+        <em>Ace Attorney</em> voice clips fresh from Japanifornia.
+    </p>
 </section>
 {{- $str := $.Site.Data.strings -}}
 {{- range $series := .Site.Data.aceattorney -}}
-<section>
-    <h2>{{ index $str.en $series.series }}</h2>
+<section class="series">
+    <h2 class="series-title">{{ index $str.en $series.series }}</h2>
     {{- range $char := $series.characters -}}
     <section class="char">
         <h3 id="char-id">

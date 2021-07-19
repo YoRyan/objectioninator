@@ -1,0 +1,11 @@
+<footer role="contentinfo">
+	<ul id="footer-menu">
+		{{ range .Site.Menus.main }}
+		<li>
+			<a href="{{ .URL }}" title="{{ .Name }} page">
+				{{ .Name }}
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+</footer>

@@ -3,5 +3,11 @@ languageCode = "en-us"
 title = "Objection! ...inator"
 theme = "starter"
 
+[menu]
+
+  [[menu.main]]
+    name = "Contribute"
+    url = "https://github.com/YoRyan/objectioninator"
+
 [params]
   custom_css = ["css/my.css"]
