@@ -1,5 +1,5 @@
 class SoundPlayer {
-    audio: HTMLAudioElement;
+    readonly audio: HTMLAudioElement;
 
     constructor() {
         this.audio = new Audio();
@@ -15,7 +15,7 @@ class SoundPlayer {
 function init() {
     const player = new SoundPlayer();
     const links = document.getElementsByClassName("char-line-play");
-    const handler = function(this: HTMLAnchorElement, event: Event) {
+    function handler(this: HTMLAnchorElement, event: Event) {
         player.play(this.href);
         event.preventDefault();
     }
