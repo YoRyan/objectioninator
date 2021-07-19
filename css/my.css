@@ -1,0 +1,52 @@
+body {
+    background-color: sienna;
+}
+#body-content {
+    max-width: 60rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: cornsilk;
+}
+
+#header {
+    text-align: center;
+    font-size: 150%;
+}
+
+.series {
+    max-width: 60rem;
+    margin: 4rem 0;
+}
+.series-title {
+    text-align: center;
+    font-size: 180%;
+}
+
+.char {
+    margin: 3rem 0;
+}
+.char-id-mug {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.char-line-text,
+.char-line-langs {
+    padding: 0.5rem 0;
+}
+.char-line-text {
+    float: left;
+    clear: left;
+    font-weight: bold;
+    min-width: 7rem;
+}
+.char-line-play {
+    margin: 0 1rem;
+}
+
+#footer-menu {
+    text-align: center;
+    padding: 0;
+}
+#footer-menu li {
+    display: inline;
+}
