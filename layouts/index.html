@@ -29,4 +29,6 @@
     {{- end -}}
 </section>
 {{- end -}}
+{{- $js := resources.Get "ts/player.ts" | js.Build -}}
+<script src="{{ $js.Permalink }}"></script>
 {{ end }}
