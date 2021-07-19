@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://objection.trinancrat.me/"
 languageCode = "en-us"
 title = "Objection! ...inator"
 theme = "starter"
