@@ -12,4 +12,4 @@ $ hugo serve
 
 All code in this repository is released under the public domain.
 
-The assets are ripped shamelessly from the Ace Attorney Fandom site and the games themselves. (Please don't sue, Capcom.)
+The assets are ripped shamelessly from Court Records, the Ace Attorney Fandom site, and the games themselves. (Please don't sue, Capcom.)
