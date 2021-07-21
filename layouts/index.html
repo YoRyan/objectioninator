@@ -11,11 +11,13 @@
     <h2 class="series-title">{{ index $str.en $series.series }}</h2>
     {{- range $char := $series.characters -}}
     <section class="char">
-        <h3 id="char-id">
+        <h3 class="char-id">
             {{- $mugshot := printf "/mugshots/%s/%s.png" $series.series $char.id -}}
             {{- $charname := index $str.en $char.id -}}
             <img src="{{ $mugshot }}" alt="{{ $charname }} mugshot" class="char-id-mug">
-            {{ $charname }}
+            <div class="char-id-text">
+                <span>{{ $charname }}</span>
+            </div>
         </h3>
         <div class="char-lines">
             {{- range $line := $char.lines -}}

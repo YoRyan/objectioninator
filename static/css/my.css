@@ -1,11 +1,20 @@
 body {
-    background-color: sienna;
+    background-image: url("/img/courtroom.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 1rem;
 }
 #body-content {
     max-width: 60rem;
-    margin: 1rem auto;
+    margin: 0 auto;
     padding: 1rem;
-    background-color: cornsilk;
+    background-color: snow;
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem black;
+}
+
+a {
+    text-decoration: none;
 }
 
 #header {
@@ -15,19 +24,34 @@ body {
 
 .series {
     max-width: 60rem;
-    margin: 4rem 0;
-}
-.series-title {
-    text-align: center;
-    font-size: 180%;
-}
-
-.char {
     margin: 3rem 0;
 }
+.series-title {
+    font-size: 180%;
+    color: white;
+    background-color: indigo;
+    border-radius: 0.8rem 0.8rem 0 0;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.char-id {
+    display: flex;
+    align-items: stretch;
+}
 .char-id-mug {
-    vertical-align: middle;
-    margin-right: 0.5rem;
+    flex: initial;
+}
+.char-id-text {
+    font-weight: normal;
+    color: yellow;
+    background-color: rgb(36, 36, 36);
+    border-radius: 3px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    padding: 0 1rem;
 }
 .char-line-text,
 .char-line-langs {
@@ -43,6 +67,9 @@ body {
     margin: 0 1rem;
 }
 
+footer {
+    border-top: 1px solid grey;
+}
 #footer-menu {
     text-align: center;
     padding: 0;
